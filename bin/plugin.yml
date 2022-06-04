@@ -1,0 +1,24 @@
+name: CoffeePlugin
+version: 1.0
+author: Zac Jewitt
+website: www.zacjewitt.com
+main: com.zacjewitt.CoffeePlugin.Main
+api-version: 1.16
+description: Coffee go brrrrr
+
+commands: 
+   home:
+      description: Allows players to set home coordinates and teleport home.
+      usage: /home set 
+   jumpscare:
+      description: Spawns a harmless creeper behind online player.
+      usage: /jumpscare TorbsCheeks
+   lore:
+      description: Adds lore to item in players hand.
+      usage: /lore This is not coffee :(
+   rename:
+      description: Renames item in players hand
+      usage: /rename Coffee
+   roll:
+      description: Rolls a number from 1 to the chosen number.
+      usage: /roll 100
